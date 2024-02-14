@@ -1,4 +1,4 @@
-import jwt
+import PyJWT as jwt
 import bcrypt
 import streamlit as st
 from typing import Optional
