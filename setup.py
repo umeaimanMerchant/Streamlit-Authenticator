@@ -22,7 +22,9 @@ setuptools.setup(
     keywords=['Python', 'Streamlit', 'Authentication', 'Components'],
     python_requires=">=3.6",
     install_requires=[
-        "PyJWT==1.7.1",
+
+        "PyJWT==2.3.0",
+        "cryptography==36.0.1",
         "bcrypt >= 3.1.7",
         "PyYAML >= 5.3.1",
         "streamlit >= 1.25.0",
